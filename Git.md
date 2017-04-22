@@ -19,7 +19,7 @@
 
 编写一个新文件或者修改文件后，分两步走，提交到Git仓库：
 
-1. 用命令`git add`告诉Git，究竟是哪些文件做了修改、删除、添加 **（Stage操作，添加到仓库）**：
+- 用命令`git add`告诉Git，究竟是哪些文件做了修改、删除、添加 **（Stage操作，添加到仓库）**：
 
 		$ git add readme.txt 	//直接指定对应的文件名
 		$ git add readme.txt readme_2.txt	 //也可以指定多个
@@ -28,11 +28,18 @@
 	下图是`Git Version 2.x`使用的命令效果：
 	![git Version 2.x](http://ootah442n.bkt.clouddn.com/KwOLu.jpg)
 
-2. 用命令`git commit`告诉Git，可以将修改正式地提交给仓库 **（Commit操作，提交到仓库）**
+- 用命令`git commit`告诉Git，可以将修改正式地提交给仓库 **（Commit操作，提交到仓库）**
 
 		$ git commit -m "wrote a readme file"  
 		// -m 参数表示对提交的说明，方便今后从历史记录中查询
 		
 	当然，可以分多次`git add`后，在统一进行`git commit`操作
 
-> 另外比较重要的一个命令就是`git status`，可以用这个命令来查看当前的状况，包括哪些文件变动了，哪些文件添加了但是没提交，或者是远程仓库与本地仓库的区别。
+### 3、查看命令
+- 命令`git status`可以让我们时刻掌握仓库当前的状态，包括修改、提交、差异等。
+- 命令`git diff`来查询文件具体是修改了什么内容，例如：
+		
+		$ git diff readme.txt
+		
+		diff --git a/readme.txt b/readme.txt		index 46d49bf..9247db6 100644		--- a/readme.txt		+++ b/readme.txt		@@ -1,2 +1,2 @@		-Git is a version control system.		+Git is a distributed version control system.		 Git is free software
+
