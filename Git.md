@@ -19,16 +19,16 @@
 
 编写一个新文件或者修改文件后，分两步走，提交到Git仓库：
 
-1. 用命令`git add`告诉Git，究竟是哪些文件做了修改、删除、添加 **(Stage操作，添加到仓库)**：
+1. 用命令`git add`告诉Git，究竟是哪些文件做了修改、删除、添加 **（Stage操作，添加到仓库）**：
 
 		$ git add readme.txt 	//直接指定对应的文件名
 		$ git add readme.txt readme_2.txt	 //也可以指定多个
 		$ git add .  //把所有变动的文件都提交上去
 		$ git add --all //把所有变动的文件都提交上去
 	下图是`Git Version 2.x`使用的命令效果：
-	![](http://ootah442n.bkt.clouddn.com/KwOLu.jpg)
+	![git Version 2.x](http://ootah442n.bkt.clouddn.com/KwOLu.jpg)
 
-2. 用命令`git commit`告诉Git，可以将修改正式地提交给仓库**（Commit操作，提交到仓库）**
+2. 用命令`git commit`告诉Git，可以将修改正式地提交给仓库 **（Commit操作，提交到仓库）**
 
 		$ git commit -m "wrote a readme file"  
 		// -m 参数表示对提交的说明，方便今后从历史记录中查询
