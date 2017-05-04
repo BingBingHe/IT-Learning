@@ -7,6 +7,7 @@ This project summarize my learning exprience for IT.
 
 - Git
 - Tomcat
+- 常用代码
 
 > Personal Summary by Bingbing He
 > 
