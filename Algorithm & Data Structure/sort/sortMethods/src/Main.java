@@ -1,4 +1,3 @@
-package sort;
 
 /**
  * 用于测试，排序的效果。
@@ -8,13 +7,23 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// 待排序数组
-		int[] numbers = { 49, 38, 65, 97, 76, 13, 27, 49 };
+		int[] numbers = { 49, 38, 65, 97, 76, 100 , 2 , 13, 27, 49 };
 
 		// 排序
 //		BubbleSort.sort(numbers);
-		System.out.println("===");
-		QuickSort.sort(numbers);
-		System.out.println("---");
+
+//		QuickSort.sort(numbers);
+		
+//		SelectSort.sort(numbers);
+		
+//		InsertSort.sort(numbers);
+		
+//		ShellSort.sort(numbers);
+		
+//		HeapSort.sort(numbers);
+		
+//		MergeSort.sort(numbers);
+//		MergeSort.merge_sort(numbers);
 
 		// 输出
 		print(numbers);

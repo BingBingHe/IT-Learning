@@ -7,8 +7,10 @@ This project summarize my learning exprience for IT.
 
 - Git
 - Tomcat
-- 常用代码
+- Algorithm & Data Structure
+	- sort
+	
 
 > Personal Summary by Bingbing He
 > 
-> 2017/04/25， Last Update
+> 2017/05/05, Last Update
