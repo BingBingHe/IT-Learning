@@ -1,5 +1,8 @@
 # Git
 
+> @authur Bingbing He,
+> 2017/04/22
+
 ### 1、创建版本库
 首先，选择一个合适的地方创建空目录：
 
@@ -41,7 +44,14 @@
 		
 		$ git diff readme.txt
 		
-		diff --git a/readme.txt b/readme.txt		index 46d49bf..9247db6 100644		--- a/readme.txt		+++ b/readme.txt		@@ -1,2 +1,2 @@		-Git is a version control system.		+Git is a distributed version control system.		 Git is free software
+		diff --git a/readme.txt b/readme.txt
+		index 46d49bf..9247db6 100644
+		--- a/readme.txt
+		+++ b/readme.txt
+		@@ -1,2 +1,2 @@
+		-Git is a version control system.
+		+Git is a distributed version control system.
+		 Git is free software
 
 ### 4、远程仓库连接
 
