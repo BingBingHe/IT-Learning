@@ -10,6 +10,7 @@ This project summarize my learning exprience for IT.
 - Algorithm & Data Structure
 	- sort
 - LeetCode
+- JAVA Develop
 	
 
 > Personal Summary by Bingbing He
